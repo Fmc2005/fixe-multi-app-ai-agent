@@ -1,0 +1,46 @@
+[
+  {
+    "placeId": "demo-place-trader-joes",
+    "name": "Trader Joe's",
+    "category": "grocery",
+    "address": "899 Boylston St, Boston, MA",
+    "location": { "lat": 42.3477, "lng": -71.0842 },
+    "rating": 4.5,
+    "priceLevel": 1,
+    "openNow": true,
+    "distanceMeters": 650
+  },
+  {
+    "placeId": "demo-place-tatte-bakery",
+    "name": "Tatte Bakery & Cafe",
+    "category": "restaurant",
+    "address": "142 Newbury St, Boston, MA",
+    "location": { "lat": 42.3496, "lng": -71.0801 },
+    "rating": 4.6,
+    "priceLevel": 2,
+    "openNow": true,
+    "distanceMeters": 900
+  },
+  {
+    "placeId": "demo-place-flour-bakery",
+    "name": "Flour Bakery + Cafe",
+    "category": "restaurant",
+    "address": "1595 Washington St, Boston, MA",
+    "location": { "lat": 42.3412, "lng": -71.0755 },
+    "rating": 4.7,
+    "priceLevel": 2,
+    "openNow": false,
+    "distanceMeters": 1800
+  },
+  {
+    "placeId": "demo-place-star-market",
+    "name": "Star Market",
+    "category": "grocery",
+    "address": "33 Kilmarnock St, Boston, MA",
+    "location": { "lat": 42.3439, "lng": -71.0977 },
+    "rating": 3.9,
+    "priceLevel": 2,
+    "openNow": true,
+    "distanceMeters": 1200
+  }
+]

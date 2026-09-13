@@ -1,0 +1,20 @@
+[
+  {
+    "id": "demo-event-flight-landing",
+    "summary": "Flight lands - BOS",
+    "start": "2026-09-15T18:00:00.000Z",
+    "end": "2026-09-15T19:00:00.000Z"
+  },
+  {
+    "id": "demo-event-dorm-checkin",
+    "summary": "Dorm check-in window",
+    "start": "2026-09-15T20:00:00.000Z",
+    "end": "2026-09-15T22:00:00.000Z"
+  },
+  {
+    "id": "demo-event-orientation",
+    "summary": "New student orientation",
+    "start": "2026-09-16T14:00:00.000Z",
+    "end": "2026-09-16T18:00:00.000Z"
+  }
+]

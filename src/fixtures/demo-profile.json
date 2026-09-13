@@ -1,0 +1,16 @@
+{
+  "destination": "Boston, MA",
+  "approximateAddress": "Fenway-Kenmore, Boston, MA",
+  "arrivalAt": "2026-09-15T18:00:00.000Z",
+  "budget": 150,
+  "favoritePlaceIds": [
+    "demo-place-trader-joes",
+    "demo-place-tatte-bakery",
+    "demo-place-flour-bakery"
+  ],
+  "preferenceOverrides": {
+    "dietaryRestrictions": ["vegetarian"],
+    "transportation": "walking",
+    "interests": ["coffee", "bakery", "quiet study spots"]
+  }
+}
