@@ -19,6 +19,7 @@ const SEARCH_FIELD_MASK = [
   "places.formattedAddress",
   "places.location",
   "places.rating",
+  "places.userRatingCount",
   "places.priceLevel",
   "places.currentOpeningHours.openNow",
   "places.primaryType",
@@ -73,6 +74,7 @@ type RawPlace = {
   formattedAddress?: string;
   location?: { latitude?: number; longitude?: number };
   rating?: number;
+  userRatingCount?: number;
   priceLevel?: string;
   currentOpeningHours?: { openNow?: boolean };
   primaryType?: string;
@@ -90,6 +92,7 @@ function normalize(raw: RawPlace): NormalizedPlace {
       lng: raw.location?.longitude ?? 0,
     },
     rating: raw.rating,
+    userRatingCount: raw.userRatingCount,
     priceLevel: priceLevelToNumber(raw.priceLevel),
     openNow: raw.currentOpeningHours?.openNow,
   };
@@ -194,6 +197,7 @@ const DETAILS_FIELD_MASK = [
   "formattedAddress",
   "location",
   "rating",
+  "userRatingCount",
   "priceLevel",
   "currentOpeningHours.openNow",
   "primaryType",

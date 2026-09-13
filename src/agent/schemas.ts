@@ -43,6 +43,7 @@ export const NormalizedPlaceSchema = z.object({
   address: z.string().optional(),
   location: z.object({ lat: z.number(), lng: z.number() }),
   rating: z.number().min(0).max(5).optional(),
+  userRatingCount: z.number().int().nonnegative().optional(),
   priceLevel: z.number().int().min(0).max(4).optional(),
   openNow: z.boolean().optional(),
   distanceMeters: z.number().nonnegative().optional(),
