@@ -32,7 +32,13 @@ export type UserPreferenceProfile = z.infer<typeof UserPreferenceProfileSchema>;
 // Places (Google Maps)
 // ---------------------------------------------------------------------------
 
-export const PlaceCategorySchema = z.enum(["restaurant", "grocery", "pharmacy", "park", "other"]);
+export const PlaceCategorySchema = z.enum([
+  "restaurant",
+  "grocery",
+  "pharmacy",
+  "park",
+  "other",
+]);
 export type PlaceCategory = z.infer<typeof PlaceCategorySchema>;
 
 /** A place as normalized from Places API (New), before ranking is applied. */
